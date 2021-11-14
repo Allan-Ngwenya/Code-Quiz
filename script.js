@@ -75,3 +75,51 @@ function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
 }
+
+const questions = [
+  {
+    question: 'Inside which HTML element do we put the JavaScript?',
+    answers: [
+      { text: '<script>', correct: true },
+      { text: '<scripting>', correct: false },
+      { text: '<javascript>', correct: false },
+      { text: '<js>', correct: false }
+    ]
+  },
+  {
+    question: '29 is of what data type?',
+    answers: [
+      { text: 'Integer', correct: true },
+      { text: 'Boolean', correct: false },
+      { text: 'String', correct: false },
+      { text: 'Float', correct: false }
+    ]
+  },
+  {
+    question: 'Which of the following is the correct syntax to display “Alert” in an alert box using JavaScript?',
+    answers: [
+      { text: 'alert(“Alert”);', correct: true },
+      { text: 'msgbox(“Alert”);', correct: false },
+      { text: 'alertbox(“Alert”);', correct: false },
+      { text: 'msg(“Alert”);', correct: false }
+    ]
+  },
+  {
+    question: 'Which is the correct syntax for displaying data in the console?',
+    answers: [
+      { text: 'console.log();', correct: true },
+      { text: 'log.console();', correct: false },
+      { text: 'console.log[];', correct: false },
+      { text: 'console.log;', correct: false }
+    ]
+  },
+  {
+    question: 'What is the correct syntax for declaring a function?',
+    answers: [
+      { text: 'function myFunction()', correct: true },
+      { text: 'var myFunction()', correct: false },
+      { text: 'myFunction function()', correct: false },
+      { text: 'function my Function()', correct: false }
+    ]
+  }
+];
