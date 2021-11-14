@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,13 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Code Quiz</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- defer of script.js, run after other components, not in order -->
   <script src="script.js" defer></script>
 </head>
 
 <body>
   <div class="container">
+    <!-- Container for where the question will appear -->
     <div id="question-container" class="hide">
       <div id="question">Question</div>
+      <!-- button classes for the buttons to allow individual styling for each option -->
       <div id="answer-buttons" class="btn-grid">
         <button class="btn">Answer 1</button>
         <button class="btn">Answer 2</button>
@@ -21,6 +24,7 @@
         <button class="btn">Answer 4</button>
       </div>
     </div>
+    <!-- Start and Next button to allow navigation between questions in the quiz -->
     <div class="controls">
       <button id="start-btn" class="start-btn btn">Start</button>
       <button id="next-btn" class="next-btn btn hide">Next</button>
