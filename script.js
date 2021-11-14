@@ -47,7 +47,7 @@ function resetState() {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild)
   }
 }
-
+//select answer displayed as a button/ click button to choose option
 function selectAnswer(e) {
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
