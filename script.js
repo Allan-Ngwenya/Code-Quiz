@@ -123,3 +123,26 @@ const questions = [
     ]
   }
 ];
+
+StartDownCounting();
+
+function StartDownCounting() {
+  let interval = setInterval(() => {
+    if (quizTime <= 30 && quizTime >= 13) {
+      timeLeft.style.color = "green";
+    }
+    else if (quizTime <= 10 && quizTime >= 0) {
+      timeLeft.style.color = "red";
+    }
+
+    timeLeft.innerText = quizTime;
+    quizTime -= 1;
+
+    if (quizTime < 0) {
+      clearInterval(interval);
+      alert("Time's up, try again")
+      location.href = 'index.html';
+
+    }
+  }, 1000);
+}
