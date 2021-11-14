@@ -1,3 +1,4 @@
+//Variables for the script and using .getelement by ID's defined in my html files
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
@@ -11,7 +12,7 @@ nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
 })
-
+//function to start the game and shufle the order of the questions
 function startGame() {
   startButton.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
@@ -38,7 +39,7 @@ function showQuestion(question) {
     answerButtonsElement.appendChild(button)
   })
 }
-
+//reset state function on next button for a new question
 function resetState() {
   clearStatusClass(document.body)
   nextButton.classList.add('hide')
@@ -75,7 +76,7 @@ function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
 }
-
+//All the questions included in the quiz
 const questions = [
   {
     question: 'Inside which HTML element do we put the JavaScript?',
@@ -125,7 +126,7 @@ const questions = [
 ];
 
 StartDownCounting();
-
+//function for the timer
 function StartDownCounting() {
   let interval = setInterval(() => {
     if (quizTime <= 30 && quizTime >= 13) {
