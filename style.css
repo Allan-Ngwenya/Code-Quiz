@@ -8,7 +8,7 @@
   --hue-wrong: 0;
   --hue-correct: 145;
 }
-
+/* width, height and justify centre used to centre the container */
 body {
   --hue: var(--hue-neutral);
   padding: 0;
@@ -20,7 +20,7 @@ body {
   align-items: center;
   background-color: hsl(var(--hue), 100%, 20%);
 }
-
+/* differnt variables for corect and incorrect */
 body.correct {
   --hue: var(--hue-correct);
 }
@@ -78,7 +78,7 @@ body.wrong {
   justify-content: center;
   align-items: center;
 }
-
+/* .hide used so the questions page doesn;t appear as the homepage. It displays a start page. */
 .hide {
   display: none;
 }
