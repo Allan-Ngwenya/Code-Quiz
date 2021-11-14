@@ -25,9 +25,9 @@ GIVEN I am taking a code quiz WHEN I click the start button THEN a timer starts 
 
 ## Hosting
 
-| Project                            | Code-Quiz URL                                |
+| Project                            | Code-Quiz URL                                         |
 |------------------------------------|-------------------------------------------------------|
-| Code-Quiz                          | <> |
+| Code-Quiz                          | <https://allan-ngwenya.github.io/Code-Quiz/>          |
 
 
 ## Contributers
