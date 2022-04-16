@@ -30,6 +30,12 @@ GIVEN I am taking a code quiz WHEN I click the start button THEN a timer starts 
 | Code-Quiz                          | <https://allan-ngwenya.github.io/Code-Quiz/>          |
 
 
+##Screenshots 
+
+![codequiz1](https://user-images.githubusercontent.com/58231568/163671027-ea66d4e2-31a0-4cee-a9ed-b089a178d68c.png)
+
+
+
 ## Contributers
 
 - Mbongeni Allan Ngwenya
