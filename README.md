@@ -34,6 +34,10 @@ GIVEN I am taking a code quiz WHEN I click the start button THEN a timer starts 
 
 ![codequiz1](https://user-images.githubusercontent.com/58231568/163671027-ea66d4e2-31a0-4cee-a9ed-b089a178d68c.png)
 
+![codequiz2](https://user-images.githubusercontent.com/58231568/163671073-54843395-2f79-45e6-b296-6e8689e24da1.png)
+
+![codequiz3](https://user-images.githubusercontent.com/58231568/163671095-7d19043b-1999-4da0-ac3f-7fb8c6bf22d7.png)
+
 
 
 ## Contributers
